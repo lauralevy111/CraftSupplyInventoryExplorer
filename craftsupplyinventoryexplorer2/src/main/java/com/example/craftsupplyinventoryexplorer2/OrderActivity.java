@@ -10,5 +10,7 @@ public class OrderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
 
+        //todo: this is where i'll order new craft supplies if item.inventory=0;
+
     }
 }
