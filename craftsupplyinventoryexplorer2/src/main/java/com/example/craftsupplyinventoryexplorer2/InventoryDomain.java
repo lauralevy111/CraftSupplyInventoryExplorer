@@ -7,4 +7,6 @@ public class InventoryDomain {
     public InventoryDomain(DataSource dataSource){
 
     }
+
+
 }

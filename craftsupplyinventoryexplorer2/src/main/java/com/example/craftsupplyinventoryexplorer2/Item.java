@@ -3,13 +3,13 @@ package com.example.craftsupplyinventoryexplorer2;
 import java.util.ArrayList;
 
 public class Item {
+    private InventoryController inventoryController;
 
     public String name;
-    public ArrayList<String> tags;
+    public ArrayList<String> tags=inventoryController.getTags();
 
-    public Item(String name, ArrayList<String>tags){
+    public Item(String name){
         this.name = name;
-        this.tags=tags;
-
     }
+
 }
