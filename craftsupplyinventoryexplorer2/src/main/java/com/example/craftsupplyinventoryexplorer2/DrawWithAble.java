@@ -1,4 +1,4 @@
 package com.example.craftsupplyinventoryexplorer2;
 
-public interface Drawable {
+public interface DrawWithAble {
 }
