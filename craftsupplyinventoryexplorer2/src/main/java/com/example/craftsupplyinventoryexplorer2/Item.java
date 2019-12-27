@@ -19,6 +19,8 @@ public class Item {
     public void orderMore(int quantity){
         inventoryController.addInventory(quantity);
 
+        //todo: send api call to order more through like micheals craft store
+
     }
 
 }

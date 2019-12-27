@@ -16,7 +16,6 @@ public class OrderActivity extends AppCompatActivity {
 
         if(item.getInventory()<=0){
             item.orderMore(itemQuantity);
-
         }
 
     }
