@@ -6,6 +6,8 @@ public class InventoryController {
 
     public InventoryDomain inventoryDomain;
 
+    public int inventory;
+
 
     public InventoryController(InventoryDomain inventoryDomain){
         this.inventoryDomain=inventoryDomain;
@@ -21,6 +23,10 @@ public class InventoryController {
     public ArrayList<String> getTags(){
         //TODO: make this search the inventoryDomain.dataSource for the tas associated with a given item
         return new ArrayList<String>();
+    }
+
+    public int getInventory(){
+        return inventory;
     }
 
 
