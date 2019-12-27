@@ -29,5 +29,9 @@ public class InventoryController {
         return inventory;
     }
 
+    public void addInventory(int quantity){
+        //todo : get more
+    }
+
 
 }

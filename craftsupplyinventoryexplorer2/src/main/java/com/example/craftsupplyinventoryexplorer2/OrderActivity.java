@@ -7,13 +7,16 @@ public class OrderActivity extends AppCompatActivity {
 
     private Item item;
 
+    private int itemQuantity;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
 
         if(item.getInventory()<=0){
-            //todo: this is where i'll order new craft supplies
+            item.orderMore(itemQuantity);
+
         }
 
     }
