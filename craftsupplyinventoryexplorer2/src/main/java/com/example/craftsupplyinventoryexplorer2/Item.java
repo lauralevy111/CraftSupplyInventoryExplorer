@@ -12,6 +12,8 @@ public class Item {
         this.name = name;
     }
 
+    public void setInventory(int quantity){this.inventoryController.setInventory(quantity);}
+
     public int getInventory(){
         return inventoryController.getInventory();
     }
