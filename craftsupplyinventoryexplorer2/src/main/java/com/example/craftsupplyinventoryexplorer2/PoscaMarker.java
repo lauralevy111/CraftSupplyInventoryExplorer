@@ -1,6 +1,6 @@
 package com.example.craftsupplyinventoryexplorer2;
 
-public class PoscaMarker extends Item implements ColorAble {
+public class PoscaMarker extends Item implements ColorAble,DepleteAble {
 
     public int colorHex;
 
