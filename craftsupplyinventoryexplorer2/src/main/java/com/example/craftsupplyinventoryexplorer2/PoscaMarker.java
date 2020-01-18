@@ -1,11 +1,11 @@
 package com.example.craftsupplyinventoryexplorer2;
 
-public class PoscaMarker extends Item implements ColorAble,DepleteAble {
+public class PoscaMarker extends Marker implements ColorAble,DepleteAble {
 
-    public int colorHex;
+    public String tipType;
 
-    public PoscaMarker (String name,int colorHex){
-        super(name);
-        this.colorHex = colorHex;
+    public PoscaMarker (String name,int colorHex, String tipType){
+        super(name,colorHex);
+        this.tipType = tipType;
     }
 }
